@@ -6,7 +6,7 @@ from
 group by
 	make
 order by
-	total_jenis_mobil desc;
+	2 desc;
 
 select
 	`fuel-type`,
@@ -16,7 +16,7 @@ from
 group by
 	`fuel-type`
 order by
-	total_jenis_bahan_bakar desc;
+	2 desc;
 
 select
 	make,
